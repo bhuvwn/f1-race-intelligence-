@@ -1,0 +1,9 @@
+driver_id,driver_name,nationality,seasons,total_points,podiums,wins
+1,Lewis Hamilton,British,17,4639.5,197,103
+2,Max Verstappen,Dutch,10,2974.5,107,61
+3,Sebastian Vettel,German,16,3098.0,122,53
+4,Fernando Alonso,Spanish,21,2329.0,106,32
+5,Charles Leclerc,Monegasque,7,1250.0,36,7
+6,Lando Norris,British,6,820.0,21,3
+7,Carlos Sainz,Spanish,10,1150.0,23,4
+8,Sergio Perez,Mexican,14,1600.0,39,6

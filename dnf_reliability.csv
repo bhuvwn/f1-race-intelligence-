@@ -1,0 +1,6 @@
+failure_type,count,category
+Engine Failure,142,Mechanical
+Brake Failure,58,Mechanical
+Collision,230,Driver Incident
+Gearbox Failure,84,Mechanical
+Hydraulics,42,Mechanical

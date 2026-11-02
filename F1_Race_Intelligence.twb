@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<workbook original-version='18.1' source-build='2024.1.0' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences>
+    <preference name='ui.encoding' value='UTF-8' />
+  </preferences>
+  <datasources>
+    <datasource caption='Driver Performance' inline='true' name='federated.driver_perf' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='driver_performance' name='textscan.driver_performance'>
+            <connection class='textscan' directory='../data' filename='driver_performance.csv' password='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.driver_performance' name='driver_performance.csv' table='[driver_performance#csv]' type='table' />
+      </connection>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Driver Performance Leaderboard'>
+      <table>
+        <view>
+          <datasources>
+            <datasource name='federated.driver_perf' />
+          </datasources>
+        </view>
+      </table>
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Formula 1 Race Intelligence Overview'>
+      <style />
+      <size maxheight='800' maxwidth='1200' minheight='800' minwidth='1200' preset-index='0' type='fixed' />
+    </dashboard>
+  </dashboards>
+</workbook>
