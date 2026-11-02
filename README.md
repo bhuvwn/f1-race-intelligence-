@@ -14,3 +14,7 @@ This report delves into Formula 1 Race Intelligence, providing visual exploratio
 - `data/`: Sample CSV datasets (`driver_performance.csv`, `constructor_standings.csv`, `dnf_reliability.csv`).
 - `tableau/`: Tableau workbook configuration.
 - `index.html`: Interactive web demo dashboard for GitHub Pages.
+## Demo Video 
+https://drive.google.com/file/d/1D-aZG-RrCNVS4lOUBPGgBRl01lpnq7jO/view?usp=drive_link
+## Demo URL
+https://f1-race-intelligence.vercel.app/
